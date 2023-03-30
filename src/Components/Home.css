@@ -1,0 +1,42 @@
+.subtitle {
+  margin-bottom: 0;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.title {
+  margin-bottom: 0px;
+  font-size: 74px;
+  font-weight: bold;
+}
+
+.infos p {
+  margin-top: -5px;
+  font-size: 22px;
+  margin-bottom: 12px;
+  letter-spacing: 0.6px;
+}
+
+.social-item {
+  display: block;
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--socialIcon-color);
+  color: var(--socialIcon-color);
+  text-align: center;
+  line-height: 40px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.social-item:hover {
+  background: var(--socialIcon-color);
+  color: #fff;
+}
+
+.social {
+  display: flex;
+}

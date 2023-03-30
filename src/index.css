@@ -1,0 +1,16 @@
+/*variables*/
+:root {
+  --socialIcon-color: #008000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Calibri";
+}
+
+body {
+  margin: 0;
+}
