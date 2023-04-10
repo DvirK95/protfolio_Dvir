@@ -4,10 +4,23 @@
   font-weight: 500;
 }
 
+#home {
+  color: rgb(237, 237, 237);
+  background-image: url("../photos/mainHome.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 600px;
+}
 .title {
   margin-bottom: 0px;
   font-size: 74px;
   font-weight: bold;
+}
+
+.infos {
+  padding: 150px;
 }
 
 .infos p {
@@ -23,8 +36,8 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid var(--socialIcon-color);
-  color: var(--socialIcon-color);
+  border: 2px solid rgb(237, 237, 237);
+  color: rgb(237, 237, 237);
   text-align: center;
   line-height: 40px;
   -webkit-transition: all 0.3s;
@@ -35,8 +48,4 @@
 .social-item:hover {
   background: var(--socialIcon-color);
   color: #fff;
-}
-
-.social {
-  display: flex;
 }
