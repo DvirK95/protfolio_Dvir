@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/protfolio_Dvir/static/css/main.52d05f6a.css",
+    "main.js": "/protfolio_Dvir/static/js/main.d1b69aaa.js",
+    "static/media/profileImg.jpg": "/protfolio_Dvir/static/media/profileImg.c0742594020ed7d4604e.jpg",
+    "static/media/mainHome.jpg": "/protfolio_Dvir/static/media/mainHome.32074931c2c7399997b6.jpg",
+    "index.html": "/protfolio_Dvir/index.html",
+    "main.52d05f6a.css.map": "/protfolio_Dvir/static/css/main.52d05f6a.css.map",
+    "main.d1b69aaa.js.map": "/protfolio_Dvir/static/js/main.d1b69aaa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52d05f6a.css",
+    "static/js/main.d1b69aaa.js"
+  ]
+}
