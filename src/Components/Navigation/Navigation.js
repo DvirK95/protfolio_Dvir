@@ -4,20 +4,33 @@ import "../UI/MainButton.css";
 
 function Navigation() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar variant="dark" sticky="top" className="navbar-cust" expand="lg">
       <Container>
-        <Navbar.Brand href="#">Dvir Karl</Navbar.Brand>
+        <Navbar.Brand className="nav-color" href="#home">
+          Dvir Karl
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav" />
         <Navbar.Collapse id="navbarNav">
           <Nav className="mx-auto">
-            <Nav.Link href="#intro">Introduction</Nav.Link>
-            <Nav.Link href="#about">About Me</Nav.Link>
-            <Nav.Link href="#testimonials">Reviews</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link className="nav-color" href="#intro">
+              Introduction
+            </Nav.Link>
+            <Nav.Link className="nav-color" href="#about">
+              About Me
+            </Nav.Link>
+            <Nav.Link className="nav-color" href="#resume">
+              Resume
+            </Nav.Link>
+            <Nav.Link className="nav-color" href="#contact">
+              Contact
+            </Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link className="custom-btn" href="#" download>
-              Download CV
+            <Nav.Link
+              href={`${process.env.PUBLIC_URL}/Dvir_Karl_CV.pdf`}
+              download
+            >
+              <button className="button">Download CV</button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

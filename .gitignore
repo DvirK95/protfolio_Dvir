@@ -25,3 +25,5 @@ yarn-error.log*
 ###########################
 /Examples
 package-lock.json
+
+/src/photos

@@ -1,45 +1,18 @@
-.subtitle {
-  margin-bottom: 0;
-  font-size: 25px;
-  font-weight: 500;
-}
-
 #home {
-  color: rgb(237, 237, 237);
-  background-image: url("../photos/mainHome.jpg");
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: var(--second-color);
+  text-align: center;
 }
-.title {
-  margin-bottom: 0px;
-  font-size: 74px;
-  font-weight: bold;
-}
-
 .infos {
-  padding: 150px 80px;
-}
-
-.infos p {
-  margin-top: -3px;
-  font-size: 22px;
-  margin-bottom: 12px;
-  letter-spacing: 1.5px;
+  margin: 3rem 3rem;
 }
 
 .social-item {
-  display: block;
   margin: 0 5px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid rgb(237, 237, 237);
-  color: rgb(237, 237, 237);
+  border: 2px solid var(--second-color);
+  color: var(--second-color);
   text-align: center;
   line-height: 40px;
   -webkit-transition: all 0.3s;
@@ -48,37 +21,17 @@
 }
 
 .social-item:hover {
-  background: var(--socialIcon-color);
-  color: #fff;
+  background: var(--main-color);
+  color: var(--second-color);
 }
 
-@media only screen and (max-width: 768px) {
-  .infos {
-    padding: 50px 30px;
-    position: relative;
-    left: -80px;
-  }
+#profileImg {
+  margin: 2rem 0;
+  width: 150px;
 }
 
-@media only screen and (max-width: 972px) {
-  #home {
-    max-height: 370px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  #home {
-    max-height: 470px;
-  }
-  .infos {
-    padding: 30px;
-    position: relative;
-    left: -10px;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .infos {
-    position: relative;
-    left: -170px;
+@media screen and (min-width: 769px) {
+  #profileImg {
+    width: 250px;
   }
 }

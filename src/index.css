@@ -1,11 +1,12 @@
 /*variables*/
 :root {
-  --socialIcon-color: #008000;
+  --main-color: #5be9b9;
+  --second-color: #02244a;
 }
 
 * {
   box-sizing: border-box;
-  font-family: "eurostile", sans-serif;
+  font-family: rubik;
 }
 
 body {
