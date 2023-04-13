@@ -1,0 +1,32 @@
+/* CUSTOM BUTTON */
+.custom-btn {
+  background: green;
+  border: none;
+  border-radius: 50px;
+  color: inherit;
+  letter-spacing: 1px;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.custom-btn:hover,
+.custom-btn:focus {
+  color: white;
+  background-color: rgb(1, 181, 1);
+}
+
+.white-green-btn {
+  border: 1px solid green;
+  border-radius: 50px;
+  color: green;
+  letter-spacing: 1px;
+  padding: 10px;
+  white-space: nowrap;
+  background-color: inherit;
+}
+
+.white-green-btn:hover,
+.white-green-btn:focus {
+  color: white;
+  background: green;
+}

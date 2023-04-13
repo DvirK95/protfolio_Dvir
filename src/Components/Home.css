@@ -11,7 +11,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .title {
   margin-bottom: 0px;
@@ -20,14 +22,14 @@
 }
 
 .infos {
-  padding: 150px;
+  padding: 150px 80px;
 }
 
 .infos p {
-  margin-top: -5px;
+  margin-top: -3px;
   font-size: 22px;
   margin-bottom: 12px;
-  letter-spacing: 0.6px;
+  letter-spacing: 1.5px;
 }
 
 .social-item {
@@ -48,4 +50,35 @@
 .social-item:hover {
   background: var(--socialIcon-color);
   color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .infos {
+    padding: 50px 30px;
+    position: relative;
+    left: -80px;
+  }
+}
+
+@media only screen and (max-width: 972px) {
+  #home {
+    max-height: 370px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #home {
+    max-height: 470px;
+  }
+  .infos {
+    padding: 30px;
+    position: relative;
+    left: -10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .infos {
+    position: relative;
+    left: -170px;
+  }
 }

@@ -1,0 +1,40 @@
+{
+  "education": [
+    {
+      "date": "2020-Present",
+      "title": "B.Sc. Information Systems, The Academic Collage of Tel-Aviv, Yaffo",
+      "body": [
+        "Expected graduation date: July 2023",
+        "Programing Languages, Data Bases, Data Structures, Front-End and Back-End Web development"
+      ]
+    },
+    {
+      "date": "2017",
+      "title": "QA Course and ISTQB Certificate – Manual Testing",
+      "body": ["Familiarity with testing methodology and types of tests"]
+    }
+  ],
+  "Employment History": [
+    {
+      "date": "2021-2022",
+      "title": "Web Scraper, Ecommerce store",
+      "body": [
+        "Extraction of data from suppliers’ sites using Python (Selenium, Pandas and Appium)",
+        "Development automation of background tasks in admin panel"
+      ]
+    },
+    {
+      "date": "2020",
+      "title": "Information System Implementer, Ness Technologies",
+      "body": [
+        "ERP - SAP S/4HANA implementation at Kimberly Clark",
+        "Training of users and tutorial creation on a company-wide scale"
+      ]
+    },
+    {
+      "date": "2019-2020",
+      "title": "Information System Implementer, Matrix - John Bryce",
+      "body": []
+    }
+  ]
+}

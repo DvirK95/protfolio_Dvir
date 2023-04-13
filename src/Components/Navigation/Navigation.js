@@ -1,5 +1,7 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./Navigation.css";
+import "../UI/MainButton.css";
+
 function Navigation() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">

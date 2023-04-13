@@ -14,9 +14,9 @@ function Home() {
 
   return (
     <section id="home">
-      <div class="infos">
-        <h6 class="subtitle">Hello, I'm</h6>
-        <h1 class="title">Dvir Karl</h1>
+      <div className="infos">
+        <h6 className="subtitle">Hello, I'm</h6>
+        <h1 className="title">Dvir Karl</h1>
         <p>Developer, B.Sc. Information System</p>
         <Row>
           <a className="social-item" href="/">

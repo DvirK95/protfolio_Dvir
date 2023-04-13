@@ -1,6 +1,8 @@
 import "./About.css";
 import { Row, Col } from "react-bootstrap";
 import img from "../photos/profileImg.jpg";
+import "./UI/MainButton.css";
+
 function About() {
   return (
     <section id="about">
@@ -21,6 +23,7 @@ function About() {
             technical skills seeking a developer role to continue learning and
             growing. Graduating in July 2023.
           </p>
+          <button className="white-green-btn">Downolad CV</button>
         </Col>
       </Row>
     </section>

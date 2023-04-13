@@ -5,10 +5,7 @@
 
 * {
   box-sizing: border-box;
-}
-
-html {
-  font-family: "Calibri";
+  font-family: "eurostile", sans-serif;
 }
 
 body {
