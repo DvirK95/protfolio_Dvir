@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/protfolio_Dvir/static/css/main.b4a85fe2.css",
-    "main.js": "/protfolio_Dvir/static/js/main.8c5b96e5.js",
+    "main.css": "/protfolio_Dvir/static/css/main.d2ef20dd.css",
+    "main.js": "/protfolio_Dvir/static/js/main.a4eb2144.js",
     "static/media/DvirProfile.png": "/protfolio_Dvir/static/media/DvirProfile.9c0b2afc740494661828.png",
     "index.html": "/protfolio_Dvir/index.html",
-    "main.b4a85fe2.css.map": "/protfolio_Dvir/static/css/main.b4a85fe2.css.map",
-    "main.8c5b96e5.js.map": "/protfolio_Dvir/static/js/main.8c5b96e5.js.map"
+    "main.d2ef20dd.css.map": "/protfolio_Dvir/static/css/main.d2ef20dd.css.map",
+    "main.a4eb2144.js.map": "/protfolio_Dvir/static/js/main.a4eb2144.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4a85fe2.css",
-    "static/js/main.8c5b96e5.js"
+    "static/css/main.d2ef20dd.css",
+    "static/js/main.a4eb2144.js"
   ]
 }
