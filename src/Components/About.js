@@ -17,7 +17,9 @@ function About() {
           dedication to create exceptional software solutions. Let's connect and
           innovate together!
         </p>
-        <button className="button sec-btn">Contact Me</button>
+        <a href="#contact">
+          <button className="button sec-btn">Contact Me</button>
+        </a>
       </Container>
     </section>
   );

@@ -1,0 +1,38 @@
+.floating-button-container {
+  position: fixed;
+  right: -19px;
+  z-index: 1000;
+}
+
+.floating-button {
+  background-color: #122231;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  width: 69px;
+  height: 60px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.floating-menu {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+  padding: 16px;
+  position: absolute;
+  bottom: 60px;
+  right: 26px;
+  width: 200px;
+}
+
+.open .floating-menu {
+  display: flex;
+}

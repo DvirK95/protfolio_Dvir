@@ -22,8 +22,7 @@ function Resume() {
             <ResumeTech />
           </Col>
         </Row>
-        <h2>Employee History</h2>
-        <Row>to be continue</Row>
+        {/** <h2>Employee History</h2>*/}
       </Container>
     </section>
   );

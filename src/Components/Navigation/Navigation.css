@@ -1,11 +1,18 @@
 nav {
   background-color: var(--second-color);
 }
-.nav-color {
+.navbar-brand,
+.nav-link {
+  cursor: pointer;
   color: white;
 }
-.nav-color:hover {
+
+.navbar-brand:hover,
+.nav-link:hover {
   color: var(--main-color);
+}
+.mx-auto .active {
+  color: var(--main-color) !important;
 }
 
 .navbar-brand {

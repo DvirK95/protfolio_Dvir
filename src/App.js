@@ -1,20 +1,23 @@
 import React from "react";
 import Navigation from "./Components/Navigation/Navigation";
-import Home from "./Components/Home";
+import Intro from "./Components/Intro";
 import About from "./Components/About";
 import Resume from "./Components/Resume/Resume";
+import FloatingButton from "./Components/Accessibility/FloatingButton";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import "./App.css";
 
 function App() {
   return (
     <>
       <Navigation />
-      <Home />
+      <Intro />
+      <FloatingButton />
       <About />
       <Resume />
-      <section id="contact">
-        <h2>Contact</h2>
-      </section>
+      <Contact />
+      <Footer />
     </>
   );
 }
