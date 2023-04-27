@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/protfolio_Dvir/static/css/main.d2ef20dd.css",
-    "main.js": "/protfolio_Dvir/static/js/main.a4eb2144.js",
+    "main.js": "/protfolio_Dvir/static/js/main.8727c7b0.js",
     "static/media/DvirProfile.png": "/protfolio_Dvir/static/media/DvirProfile.9c0b2afc740494661828.png",
     "index.html": "/protfolio_Dvir/index.html",
     "main.d2ef20dd.css.map": "/protfolio_Dvir/static/css/main.d2ef20dd.css.map",
-    "main.a4eb2144.js.map": "/protfolio_Dvir/static/js/main.a4eb2144.js.map"
+    "main.8727c7b0.js.map": "/protfolio_Dvir/static/js/main.8727c7b0.js.map"
   },
   "entrypoints": [
     "static/css/main.d2ef20dd.css",
-    "static/js/main.a4eb2144.js"
+    "static/js/main.8727c7b0.js"
   ]
 }
