@@ -1,15 +1,15 @@
-import { Card } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faComputer, faGlobe } from "@fortawesome/free-solid-svg-icons";
-import {} from "@fortawesome/free-brands-svg-icons";
-import "./Resume.css";
+import { Card } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faComputer, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import {} from '@fortawesome/free-brands-svg-icons';
+import '../../Sections/Resume/Resume.css';
 
 function ResumeTech() {
   const computerIcon = (
     <FontAwesomeIcon className="resumeIcon" icon={faComputer} />
   );
   const GlobeIcon = (
-    <FontAwesomeIcon className="" style={{ padding: "1rem" }} icon={faGlobe} />
+    <FontAwesomeIcon className="" style={{ padding: '1rem' }} icon={faGlobe} />
   );
 
   return (
@@ -17,9 +17,9 @@ function ResumeTech() {
       <Card.Header>{computerIcon}</Card.Header>
 
       <Card.Body>
-        <Card.Title>QA</Card.Title>
+        <Card.Title>QA - Experience</Card.Title>
         <ul>
-          <li>Familiar with testing methodology</li>
+          <li>Testing methodology</li>
           <li>ISTQB Certified</li>
         </ul>
         <Card.Title>Softwares</Card.Title>

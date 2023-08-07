@@ -1,10 +1,8 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-//import data from "../../Tools/StaticData.json";
-//import ResumeCard from "./ResumeCard";
-import ResumeCode from "./ResumeCode";
-import ResumeTech from "./ResumeTech";
-import ResumeDb from "./ResumeDb";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import ResumeCode from '../../Components/Resume/ResumeCode';
+import ResumeTech from '../../Components/Resume/ResumeTech';
+import ResumeDb from '../../Components/Resume/ResumeDb';
 
 function Resume() {
   return (
@@ -22,7 +20,6 @@ function Resume() {
             <ResumeTech />
           </Col>
         </Row>
-        {/** <h2>Employee History</h2>*/}
       </Container>
     </section>
   );

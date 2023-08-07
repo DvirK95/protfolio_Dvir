@@ -1,6 +1,6 @@
-import "./Contact.css";
-import { Container, Form, FloatingLabel, Row } from "react-bootstrap";
-import "./UI/MainButton.css";
+import './Contact.css';
+import { Container, Form, FloatingLabel, Row } from 'react-bootstrap';
+import '../../Components/UI/MainButton.css';
 
 function Contact() {
   return (
@@ -46,10 +46,10 @@ function Contact() {
                 as="textarea"
                 name="message"
                 placeholder=""
-                style={{ height: "10rem" }}
+                style={{ height: '10rem' }}
               ></Form.Control>
             </FloatingLabel>
-            <input type="hidden" name="_honey" style={{ display: "none" }} />
+            <input type="hidden" name="_honey" style={{ display: 'none' }} />
             <input
               type="hidden"
               name="_autoresponse"
